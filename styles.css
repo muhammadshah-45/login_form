@@ -41,7 +41,7 @@ form{
 .col-2 h1{
     font-family: 'Gill Sans', sans-serif;
     font-size: 2rem;
-    margin-top:30px;
+    margin-top:20px;
     margin-left: 20px;
     margin-bottom: 20px;
 }
@@ -101,7 +101,7 @@ button{
     background-color: rgb(212, 31, 173);
 }
 span{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
     color: rgb(150, 148, 148);
 }
