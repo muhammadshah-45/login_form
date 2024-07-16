@@ -110,3 +110,35 @@ span a{
     text-decoration: none;
     
 }
+@media (max-width: 768px) {
+
+    .container{
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+     background: none;
+     border: none;
+     box-shadow: none;
+    } 
+    .col-1{
+     width: 98%;
+     border-radius: 5px;
+    }
+    .col-2{
+     width: 98%;
+     border: 1px solid #d9d6d6;
+     border-radius: 5px;
+     background:white;
+     box-shadow: 1px 0px 6px rgb(184, 182, 182);
+    }
+ }
+ @media (max-width: 320px) {
+     .col-1 h1{
+         font-size: 3em;
+     }
+     .forget_password label{
+         margin: 0;
+         font-size: 12px;
+     }
+     
+ }
